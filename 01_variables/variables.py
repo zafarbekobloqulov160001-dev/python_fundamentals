@@ -1,28 +1,42 @@
 """
-Variables in Python
+Python Data Types Example
 
-This script demonstrates how variables work in Python.
-Variables are used to store information such as numbers, text, and boolean values.
+This script demonstrates the most common data types in Python.
 """
 
-# Integer variable
+# Integer
 age = 20
 
-# Float variable
-height = 1.80
+# Float
+height = 1.75
 
-# String variable
+# String
 name = "Zafar"
 
-# Boolean variable
+# Boolean
 is_student = True
 
-# Printing variables
-print("Name:", name)
-print("Age:", age)
-print("Height:", height)
-print("Student:", is_student)
+# List
+languages = ["Python", "Java", "C++"]
 
-# Example of updating a variable
-age = age + 1
-print("Age next year:", age)
+# Tuple
+coordinates = (10, 20)
+
+# Set
+unique_numbers = {1, 2, 3, 4}
+
+# Dictionary
+person = {
+    "name": "Zafar",
+    "age": 20,
+    "city": "Tashkent"
+}
+
+print("Integer:", age)
+print("Float:", height)
+print("String:", name)
+print("Boolean:", is_student)
+print("List:", languages)
+print("Tuple:", coordinates)
+print("Set:", unique_numbers)
+print("Dictionary:", person)
