@@ -1,0 +1,19 @@
+"""
+Simple CLI calculator
+"""
+
+a = float(input("First number: "))
+b = float(input("Second number: "))
+
+op = input("Operation (+ - * /): ")
+
+if op == "+":
+    print(a + b)
+elif op == "-":
+    print(a - b)
+elif op == "*":
+    print(a * b)
+elif op == "/":
+    print(a / b)
+else:
+    print("Invalid operation")
